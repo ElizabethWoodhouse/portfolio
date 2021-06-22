@@ -1,4 +1,4 @@
-import { contact, projects, homePage } from './pages/index';
+import { contact, projects, homePage, notFound } from './pages/index';
 
 //directory of routes to pages
 let routes = {
@@ -12,5 +12,5 @@ let routes = {
 //window.location.pathname => gets current page address
 let contentDiv = document.querySelector('#content');
 contentDiv.innerHTML = `<p>hey</p>`;
-// routes[window.location.pathname];
-// console.log(contentDiv);
+routes[window.location.pathname];
+console.log(contentDiv);
