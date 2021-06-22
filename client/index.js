@@ -1,4 +1,4 @@
-import { contact, projects, homePage } from './pages/index.js ';
+import { contact, projects, homePage } from './pages/index';
 
 //directory of routes to pages
 let routes = {
