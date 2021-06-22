@@ -1,20 +1,25 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ElizabethWoodhouse/portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ElizabethWoodhouse/portfolio/issues"
-  },
-  "homepage": "https://github.com/ElizabethWoodhouse/portfolio#readme"
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack",
+		"build-watch": "webpack -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ElizabethWoodhouse/portfolio.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ElizabethWoodhouse/portfolio/issues"
+	},
+	"homepage": "https://github.com/ElizabethWoodhouse/portfolio#readme",
+	"devDependencies": {
+		"webpack": "^5.40.0",
+		"webpack-cli": "^4.7.2"
+	}
 }
