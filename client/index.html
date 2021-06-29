@@ -3,27 +3,25 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<script type="module" defer src="client/index.js"></script>
+		<script defer src="/dist/bundle.js"></script>
 		<title>Elizabeth Woodhouse</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<div>
+			<img class='logo-image'src="./images/logo.png" />
+		</div>
 		<nav>
-			<ul>
-				<li><a href="/home">Home</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contact</a></li>
+			<ul id="nav-links">
+				<li><a href="#" class="nav-item">Home</a></li>
+				<li><a href="#projects" class="nav-item">Projects</a></li>
+				<li><a href="#contact" class="nav-item">Contact</a></li>
 				<li><a href="#">Resume</a></li>
 			</ul>
 		</nav>
 		<div id="content" class="content"></div>
 		<footer>
 			<p>Created by Elizabeth Woodhouse</p>
-			<p>
-				Website created with:
-				<br />
-				Vanilla Javascript, HTML, CSS, and Webpack
-			</p>
 		</footer>
 	</body>
 </html>

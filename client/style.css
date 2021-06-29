@@ -1,0 +1,34 @@
+body {
+	font-family: serif;
+	color: #5b5b5b;
+}
+/* navigation */
+.logo-image {
+	width: 15%;
+	height: 10%;
+	/* center image */
+}
+nav {
+	display: flex;
+	border-top: 1px solid #9d9898;
+	border-bottom: 1px solid #9d9898;
+	/* have border fill page */
+}
+#nav-links {
+	display: flex;
+}
+nav ul {
+	list-style-type: none;
+	justify-content: space-around;
+}
+
+/* homepage */
+.home-page-content {
+	display: flex;
+	/* add space between the boxes */
+	/* flex-wrap boxes for mobile/tab view */
+}
+.about-me-box {
+	border: 1px solid #9d9898;
+	/* make sure the boxes are the same width */
+}
