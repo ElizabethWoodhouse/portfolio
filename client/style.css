@@ -1,34 +1,60 @@
+:root {
+	--main-font: 'Cardo';
+	--main-color: #5b5b5b;
+	--secondary-color: #9d9898;
+}
 body {
-	font-family: serif;
-	color: #5b5b5b;
+	font-family: var(--main-font);
+	color: var(--main-color);
+	margin: 0px;
+	padding: 0px;
+}
+/* heading */
+.header {
+	display: flex;
+	justify-content: center;
+}
+.logo-image {
+	height: 10%;
+	width: 13%;
 }
 /* navigation */
-.logo-image {
-	width: 15%;
-	height: 10%;
-	/* center image */
-}
 nav {
 	display: flex;
-	border-top: 1px solid #9d9898;
-	border-bottom: 1px solid #9d9898;
-	/* have border fill page */
+	border-top: 1px solid var(--secondary-color);
+	border-bottom: 1px solid var(--secondary-color);
+	justify-content: center;
 }
 #nav-links {
 	display: flex;
+	width: 50%;
+	justify-content: space-around;
 }
 nav ul {
 	list-style-type: none;
-	justify-content: space-around;
+}
+nav li a {
+	text-decoration: none;
+	color: var(--main-color);
+}
+/* main-div */
+.content {
+	height: 100vh;
+	border: 5px solid red;
 }
 
 /* homepage */
 .home-page-content {
+	height: 50%;
+	width: 50%;
+	border: 5px solid red;
 	display: flex;
+	justify-content: space-between;
+
 	/* add space between the boxes */
 	/* flex-wrap boxes for mobile/tab view */
 }
 .about-me-box {
-	border: 1px solid #9d9898;
-	/* make sure the boxes are the same width */
+	border: 1px solid var(--secondary-color);
+	flex: 1;
 }

@@ -1,11 +1,10 @@
 const homePage = `<div class='home-page-content'>
 <div class='about-me-box'>
 <h3>About Me</h3>
-<p>Lorem ipsum dolor sit amet, per no ocurreret adipiscing referrentur, summo zril nec eu, pri legere nonumes at.
-Et mea dicta nostro euripidis. Usu et modus possit diceret. His iisque oblique alterum no.
-Rebum consequuntur has id, mutat vivendo in cum.<br>Vis doctus consectetuer ne, te nec facete docendi.
-Vix graeco tamquam utroque ut. Nullam suavitate ut vix, ea est meis velit altera, sea delicata mediocrem ei.
-Per facer scaevola forensibus at, eu qui tota dicat, enim graece vidisse mea te. Luptatum omittantur vis ei.
+<p>
+I have had the pleasure of working in retail helping big box retailers plan for merchandise both within the store and on the e-commerce platform for the past 5 years.
+During my time in retail I took on projects that centered around building tools in excel to help teams better manage their business and create efficiencies.
+In 2020, I made the decision to make a career transition to focus full-time on improving people's lives through technology at a larger scale.
 </p>
 </div>
 <div class='about-me-box'>
