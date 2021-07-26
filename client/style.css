@@ -1,60 +1,81 @@
 :root {
-	--main-font: 'Cardo';
-	--main-color: #5b5b5b;
-	--secondary-color: #9d9898;
+	--main-font-family: 'Cardo';
+	--main-font-size: 14px;
+	--main-background: #9a93c3;
+	--secondary-background: #d2cee1;
+	--accent-color: #473d81;
+	--main-text-color: #5b5b5b;
+	--secondary-text-color: #ffffff;
+	--main-box-color: #fffdfd;
 }
 body {
-	font-family: var(--main-font);
-	color: var(--main-color);
+	font-family: var(--main-font-family);
+	font-size: var(--main-font-size);
+	color: var(--main-text-color);
 	margin: 0px;
 	padding: 0px;
 }
-/* heading */
+/* header */
 .header {
-	display: flex;
-	justify-content: center;
+	background-color: var(--main-background);
+	color: var(--secondary-text-color);
+	font-weight: bold;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 40%;
 }
-.logo-image {
-	height: 10%;
-	width: 13%;
+.header h1 {
+	font-size: 40px;
+	margin-left: 3%;
+	margin-bottom: 0px;
 }
-/* navigation */
-nav {
-	display: flex;
-	border-top: 1px solid var(--secondary-color);
-	border-bottom: 1px solid var(--secondary-color);
-	justify-content: center;
-}
-#nav-links {
-	display: flex;
-	width: 50%;
-	justify-content: space-around;
-}
-nav ul {
-	list-style-type: none;
-}
-nav li a {
-	text-decoration: none;
-	color: var(--main-color);
-}
-/* main-div */
-.content {
-	height: 100vh;
-	border: 5px solid red;
+.header p {
+	font-size: 24px;
+	margin-left: 20%;
+	padding: 0px;
+	margin-top: 0px;
 }
 
-/* homepage */
-.home-page-content {
-	height: 50%;
-	width: 50%;
-	border: 5px solid red;
+/* nav-bar */
+.nav-links {
+	list-style-type: none;
+	width: 35%;
+	height: 5%;
 	display: flex;
 	justify-content: space-between;
-
-	/* add space between the boxes */
-	/* flex-wrap boxes for mobile/tab view */
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-top: 4%;
+	margin-right: 4%;
 }
-.about-me-box {
-	border: 1px solid var(--secondary-color);
-	flex: 1;
+.nav-links a {
+	color: var(--secondary-text-color);
+	text-decoration: none;
+}
+li {
+	margin: 0px;
+	padding: 0px;
+}
+.nav-item img {
+	height: 175%;
+}
+
+/* main */
+.content {
+	border: 5px solid red;
+	background-color: var(--main-box-color);
+	height: 100vh;
+	width: 75%;
+}
+/* footer */
+footer {
+	height: 10%;
+	width: 10%;
+	background-color: var(--main-background);
+}
+.logo img {
+	height: 5%;
+	width: 10%;
 }
