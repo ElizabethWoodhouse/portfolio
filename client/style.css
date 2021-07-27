@@ -1,6 +1,6 @@
 :root {
 	--main-font-family: 'Cardo';
-	--main-font-size: 14px;
+	--main-font-size: 16px;
 	--main-background: #9a93c3;
 	--secondary-background: #d2cee1;
 	--accent-color: #473d81;
@@ -79,3 +79,12 @@ footer {
 	height: 5%;
 	width: 10%;
 }
+
+/* Next steps:
+ 1) add content to the middle
+ 	-have it be off white
+	-have a border shadow
+	-be on top of the purple
+ 2) update external links to open an new page
+ 3) create a footer, have it go long across the bottom
+*/
